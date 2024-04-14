@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="last commit">
+    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="create home page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +92,7 @@
       <workItem from="1713007368202" duration="2547000" />
       <workItem from="1713082476210" duration="7136000" />
       <workItem from="1713101745894" duration="3751000" />
-      <workItem from="1713112597462" duration="14659000" />
+      <workItem from="1713112597462" duration="18008000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709192604269</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create home page">
+      <created>1713131240858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713131240858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +117,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <MESSAGE value="create home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create home page" />
   </component>
 </project>

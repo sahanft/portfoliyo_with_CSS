@@ -1,0 +1,50 @@
+#about{
+
+
+    position: absolute;
+    transform: rotate(90deg);
+
+    color: #ffffff;
+    font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+
+    font-size: 40px;
+
+
+    top:210%;
+    left: 90.2%;
+    /*right: 98%;*/
+
+}
+
+#aboutline1{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 170%;
+    left: 1324px;
+    width: 270px;
+    height: 6px; /* Adjust line thickness as needed */
+    background-color: #ffffff; /* Line color */
+
+}
+#aboutline2{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 250%;
+    left:1324px;
+    width: 270px;
+    height: 6px; /* Adjust line thickness as needed */
+    background-color: #ffffff; /* Line color */
+
+
+}
+#aboutt{
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+    left: 100%;
+
+}
