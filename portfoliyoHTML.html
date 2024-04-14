@@ -11,9 +11,10 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PORTFOLIYO WITH ONLY HTML</title>
+    <title>PORTFOLIYO WITH CSS</title>
 
-    <!-- Googel font link --><link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Googel font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
@@ -32,33 +33,56 @@
 <!--header-->
 <header>
 
-    <img src="assets/images/mypic%201.jpg"title="" alt="homepage icon" width="1536" height="982" >
+    <ul class="slide-bar">
 
-    <img src="assets/icons/uf.jpg"title="sahan.lk" alt="udakara fernando logo" width="100" height="100">
+        <a class="navbar slide" href="#home">HOME</a>
+        <a class="navbar slide" href="#about">ABOUT</a>
+        <a class="navbar slide" href="#service">PROJECT</a>
+        <a class="navbar slide" href="#work">ASSIGNMENT</a>
+        <a class="navbar slide" href="#goals">CONTACT</a>
+<!--
+        <a class="navbar slide" href="#contact">CONTACT</a>
+-->
+        <span class="span"></span>
 
-    <div>
+    </ul>
+    <ul class="list">
         <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">PROJECT</a>
-            <a href="">ASSIGNMENT</a>
-            <a href="">CONTACT</a>
+            <a class="navbar" href="#home">HOME</a>
+            <a class="navbar" href="#about">ABOUT</a>
+            <a class="navbar" href="#service">PROJECT</a>
+            <a class="navbar" href="#work">ASSIGNMENT</a>
+            <a class="navbar" href="#goals">CONTACT</a>
+            <!--<a class="navbar" href="#contact">CONTACT</a>-->
+            <img src="assets/icons/menu-icon.png" class="menu-icon" alt="" style="height: 30px; width: 30px; color: #000">
+            <span class="span"></span>
         </nav>
-    </div>
+    </ul>
 
-    <div>
-        <h3>Hello I'm</h3>
-        <h3>UDAKARA FERNANDO</h3>
-        <h5>Full Stack Developper</h5>
-    </div>
+    <div class="container">
 
-    <img src="assets/icons/instagram%20header.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
-    <img src="assets/icons/github%20header.png"title="sahan.lk" alt="github logo" width="40" height="40">
-    <img src="assets/icons/fb%20header.png"title="sahan.lk" alt="fb logo" width="50" height="50">
-    <img src="assets/icons/linkedin%20header.png"title="sahan.lk" alt="linkedin logo" width="50" height="50">
+        <img src="assets/images/mypic%201.jpg" alt="homepage icon" class="homepageicon" width="1536" height="982">
 
-    <div>
-        <h3>HOME</h3>
+         <img src="assets/icons/uf.jpg"title="sahan.lk" alt="udakara fernando logo" class="logo" >
+
+        <div class="text-overlay">
+            <p>Hello I'm</p><br>
+            <p id="myport">UDAKARA FERNANDO</p>
+            <p id="detail">Fullstack Developer</p>
+
+            <div>
+                <p id="home">HOME</p>
+            </div>
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div>
+                <img src="assets/icons/instagram%20header.png"title="sahan.lk" alt="instergram logo " width="50" height="50" id="inster">
+                <img src="assets/icons/github%20header.png"title="sahan.lk" alt="github logo" width="45" height="45" id="github">
+                <img src="assets/icons/fb%20header.png"title="sahan.lk" alt="fb logo" width="50" height="50" id="fb">
+                <img src="assets/icons/linkedin%20header.png"title="sahan.lk" alt="linkedin logo" width="50" height="50" id="linked">
+            </div>
+        </div>
+
     </div>
 
 </header>
@@ -69,7 +93,7 @@
 <section>
 
     <div>
-        <img src="assets/images/mypic%202.jpg"title="" alt="aboutpage icon" width="768 " height="982">
+        <img src="assets/images/mypic%202.jpg"title="" alt="aboutpage icon" width="768 " height="995">
     </div>
 
     <div>
@@ -91,7 +115,7 @@
     </div>
 
     <div>
-        <h3>ABOUT</h3>
+        <p id="about">ABOUT</p>
     </div>
 
 </section>

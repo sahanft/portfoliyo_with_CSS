@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/mypic 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/mypic 1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/portfoliyo_with_only_HTMLnew/assets/style",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/portfoliyo_with_CSS/assets/icons",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,11 +56,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_CSS\assets\icons" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_only_HTMLnew\assets\style" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_only_HTMLnew\assets\images" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo with only HTML\assets\images" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo with only HTML\assets\icons" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="portfoliyoHTML.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/portfoliyo_with_CSS/portfoliyoHTML.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.portfoliyoHTML.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,6 +89,10 @@
       <workItem from="1709192574526" duration="47000" />
       <workItem from="1712130431420" duration="1589000" />
       <workItem from="1712916049750" duration="2115000" />
+      <workItem from="1713007368202" duration="2547000" />
+      <workItem from="1713082476210" duration="7136000" />
+      <workItem from="1713101745894" duration="3751000" />
+      <workItem from="1713112597462" duration="14659000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
