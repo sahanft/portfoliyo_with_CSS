@@ -81,16 +81,5 @@ div a{
     color: #8F43EE;
 }
 
-#projecttopic{
 
-    font-size: 32px;
-    font-weight: bold;
-    font-family: "Audiowide", sans-serif;
-    position: absolute;
-    top: 2000px;
-    left: 17.1%; /* Adjust as needed */
-    transform: translateX(50%);
-    letter-spacing: 35px;
-
-}
 
