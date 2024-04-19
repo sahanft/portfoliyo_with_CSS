@@ -21,6 +21,7 @@
     --level-two: translateZ(6rem);
     --level-three: translateZ(9rem);
 
+
     --fw-normal: 400;
     --fw-bold: 700;
 
@@ -36,7 +37,7 @@
     position: absolute;
     width: 102%;
     height: 102%;
-    border: 2px solid aqua;
+    border: 2px solid black;
     filter: blur(10px);
 }
 .card__content {
@@ -66,7 +67,15 @@
 
 }
 .card__front {
+    /*
     background: linear-gradient(45deg, #384041, #236050, #041317);
+    */
+    background: linear-gradient(45deg, #000000, #808080);
+
+    /*
+    background: linear-gradient(45deg, #FFFFFF, #808080);
+    */
+
     background-size: cover;
     background-blend-mode: overlay;
     color: rgb(255, 255, 255);
@@ -79,7 +88,7 @@
     bottom: var(--spacer);
     left: var(--spacer);
     right: var(--spacer);
-    border: 3px solid #acfaf2;
+    border: 3px solid #ffffff;
     filter: blur(10px);
     transform: var(--level-one);
 }
@@ -91,11 +100,11 @@
     bottom: var(--spacer);
     left: var(--spacer);
     right: var(--spacer);
-    border: 3px solid #8efaf6;
+    border: 3px solid #ffffff;
     transform: var(--level-one);
 }
 .card__title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     transform: var(--level-three);
     order: 1;
     text-transform: uppercase;
@@ -111,18 +120,20 @@
 .card-back-button{
     transform: var(--level-two);
     background-color: transparent;
-    border: 3px solid #48eebc;
+    border: 3px solid ;
     border-radius: 50px;
-    width: 70px;
+    height: 40px;
+    width: 140px;
     position: absolute;
     bottom: 20px;
     left: 0;
     right: 0;
     margin: auto;
     color: #ffffff;
+    font-size: 24px;
 }
 .card-back-button:hover{
-    color: #f257fc;
+    color: #8F43EE;
 }
 .card-back-button:visited{
     color: #2041ff;
@@ -150,7 +161,15 @@
 .card__back {
     transform: rotateY(.5turn);
     color: white;
+    /*
     background: linear-gradient(45deg, #041317, #384041, #236050);
+    */
+    background: linear-gradient(45deg, #000000, #808080);
+    /*
+    background: linear-gradient(45deg, #FFFFFF, #808080);
+    */
+
+
 }
 .paragraphs{
     margin: 50px;
@@ -175,7 +194,7 @@
     display: block;
     border-radius: var(--borderWidth);
 }
-.gradient-border:after {
+/*.gradient-border:after {
     content: '';
     position: absolute;
     top: calc(-1 * var(--borderWidth));
@@ -201,7 +220,7 @@
     animation: animatedgradient 15s ease alternate infinite;
     background-size: 300% 300%;
     filter: blur(5px);
-}
+}*/
 @keyframes animatedgradient {
     0% {
         background-position: 0% 50%;
