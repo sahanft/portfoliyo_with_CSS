@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="updated project page">
+    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="project page updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +93,8 @@
       <workItem from="1713112597462" duration="18008000" />
       <workItem from="1713275162853" duration="9670000" />
       <workItem from="1713364093250" duration="767000" />
-      <workItem from="1713541716406" duration="4703000" />
+      <workItem from="1713541716406" duration="4940000" />
+      <workItem from="1713583186836" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713290096304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="project page updated">
+      <created>1713546542282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713546542282</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +143,7 @@
     <MESSAGE value="create home page" />
     <MESSAGE value="new commit" />
     <MESSAGE value="updated project page" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated project page" />
+    <MESSAGE value="project page updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="project page updated" />
   </component>
 </project>
