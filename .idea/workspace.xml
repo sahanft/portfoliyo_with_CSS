@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="project page updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +98,7 @@
       <workItem from="1713364093250" duration="767000" />
       <workItem from="1713541716406" duration="4940000" />
       <workItem from="1713583186836" duration="112000" />
+      <workItem from="1714052464760" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />

@@ -1,0 +1,155 @@
+#skillstopic{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+    position: absolute;
+    top: 2690px;
+    left: 24.7%;
+    transform: translateX(50%);
+    letter-spacing: 35px;
+}
+
+#skills2{
+
+    font-size: 40px;
+    position: absolute;
+    top: 2843px;
+    left: 45%;
+
+}
+
+#mainline{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 464%;
+    left:440px;
+    width: 650px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+
+#rline1{
+
+
+    position: absolute;
+    top: 440%;
+    left:383px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+#rline2{
+
+    position: absolute;
+    top: 463%;
+    left:383px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+#rline3{
+
+    position: absolute;
+    top: 486%;
+    left:383px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+#lline1{
+
+    position: absolute;
+    top: 451.5%;
+    left:796px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+#lline2{
+
+    position: absolute;
+    top: 474.5%;
+    left:796px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+
+}
+#lline3{
+
+    position: absolute;
+    top: 497.5%;
+    left:796px;
+    width: 350px;
+    height: 3.5px; /* Adjust line thickness as needed */
+    background-color: #ffffff;
+
+}
+
+#javalogo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 428%;
+    left:383px;
+}
+#javafxlogo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 451%;
+    left:383px;
+}
+#csslogo{
+
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 475.4%;
+    left:383px;
+
+}
+
+#mysqllogo{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 441%;
+    left:800px;
+
+}
+
+#htmllogo{
+
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 465%;
+    left:800px;
+
+}
+#jslogo{
+
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 488.5%;
+    left:800px;
+
+}
+
+#j1{
+    font-size:28px;
+    top: 428%;
+    left:500px;
+    position: absolute;
+
+}

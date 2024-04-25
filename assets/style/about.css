@@ -33,7 +33,7 @@
 
     position: absolute;
     transform:rotate(90deg) ;
-    top: 250%;
+    top: 255%;
     left:1324px;
     width: 270px;
     height: 6px; /* Adjust line thickness as needed */

@@ -360,5 +360,47 @@
     }
 }
 
+#projectside{
+
+    position: absolute;
+    transform: rotate(90deg);
+
+    color: #ffffff;
+    font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+
+    font-size: 40px;
+
+
+    top:346.1%;
+    left: 88.88%;
+
+}
+
+#projectline1{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 310%;
+    left: 1324px;
+    width: 270px;
+    height: 6px; /* Adjust line thickness as needed */
+    background-color: #ffffff; /* Line color */
+
+}
+
+#projectline2{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 387%;
+    left:1324px;
+    width: 270px;
+    height: 6px; /* Adjust line thickness as needed */
+    background-color: #ffffff; /* Line color */
+
+}
+
 
 
