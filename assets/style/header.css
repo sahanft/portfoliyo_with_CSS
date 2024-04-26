@@ -28,7 +28,7 @@ nav {
     position: fixed;
     width: 100%;
     height: 7%;
-    background-color: #808080;
+    background-color: black;
     z-index: 1000;
 }
 
@@ -96,7 +96,7 @@ nav {
 }
 
 
-/* All Device */
+
 
 @media (max-width: 768px) {
     .menu-icon {
@@ -150,12 +150,11 @@ nav {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 70px; /* Adjust as needed */
-    left: 80px; /* Adjust as needed */
-    background-color: rgba(255, 255, 255, 0.5); /* Background color of the logo */
-    /*padding: 5px; !* Adjust as needed *!*/
-    font-family: Arial, sans-serif; /* Adjust font family */
-    font-size: 16px; /* Adjust font size */
+    top: 70px;
+    left: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 
@@ -165,7 +164,6 @@ nav {
     top: 60%;
     left: 20%;
     transform: translate(-50%, -50%);
-   /* background-color: rgba(255, 255, 255, 0.7); !* Background color with transparency *!*/
     padding: 20px;
     margin-bottom: 40px;
 
@@ -173,7 +171,7 @@ nav {
 
 .text-overlay>p {
     font-size: 40px;
-    color: #ffffff; /* Text color */
+    color: #ffffff;
     font-weight: bold;
 
 
@@ -208,7 +206,7 @@ nav {
 
     top:-20%;
     left: 277%;
-    /*right: 98%;*/
+
 
 }
 
@@ -219,8 +217,8 @@ nav {
     top: -150%;
     left: 257%;
     width: 65%;
-    height: 6px; /* Adjust line thickness as needed */
-    background-color: #ffffff; /* Line color */
+    height: 6px;
+    background-color: #ffffff;
 
 }
 #line2{
@@ -230,8 +228,8 @@ nav {
     top: 132%;
     left: 257%;
     width: 65%;
-    height: 6px; /* Adjust line thickness as needed */
-    background-color: #ffffff; /* Line color */
+    height: 6px;
+    background-color: #ffffff;
 
 
 }

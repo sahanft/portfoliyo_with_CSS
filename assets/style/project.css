@@ -5,16 +5,11 @@
     font-family: "Audiowide", sans-serif;
     position: absolute;
     top: 2000px;
-    left: 17.1%; /* Adjust as needed */
+    left: 17.1%;
     transform: translateX(50%);
     letter-spacing: 35px;
 
 }
-
-
-/*
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
-*/
 
 :root {
     --level-one: translateZ(3rem);
@@ -373,7 +368,7 @@
     font-size: 40px;
 
 
-    top:346.1%;
+    top:397.5%;
     left: 88.88%;
 
 }
@@ -382,11 +377,11 @@
 
     position: absolute;
     transform:rotate(90deg) ;
-    top: 310%;
-    left: 1324px;
-    width: 270px;
-    height: 6px; /* Adjust line thickness as needed */
-    background-color: #ffffff; /* Line color */
+    top: 335%;
+    left: 1149px;
+    width: 620px;
+    height: 6px;
+    background-color: #ffffff;
 
 }
 
@@ -394,11 +389,11 @@
 
     position: absolute;
     transform:rotate(90deg) ;
-    top: 387%;
-    left:1324px;
-    width: 270px;
-    height: 6px; /* Adjust line thickness as needed */
-    background-color: #ffffff; /* Line color */
+    top: 466.1%;
+    left:1149px;
+    width: 620px;
+    height: 6px;
+    background-color: #ffffff;
 
 }
 

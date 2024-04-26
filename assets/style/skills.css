@@ -25,7 +25,7 @@
     top: 464%;
     left:440px;
     width: 650px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -37,7 +37,7 @@
     top: 440%;
     left:383px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -47,7 +47,7 @@
     top: 463%;
     left:383px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -57,7 +57,7 @@
     top: 486%;
     left:383px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -67,7 +67,7 @@
     top: 451.5%;
     left:796px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -77,7 +77,7 @@
     top: 474.5%;
     left:796px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 
@@ -88,7 +88,7 @@
     top: 497.5%;
     left:796px;
     width: 350px;
-    height: 3.5px; /* Adjust line thickness as needed */
+    height: 3.5px;
     background-color: #ffffff;
 
 }
@@ -148,8 +148,57 @@
 
 #j1{
     font-size:28px;
-    top: 428%;
-    left:500px;
+    top: 435.5%;
+    left:550px;
     position: absolute;
 
+}
+
+#jfx1{
+
+    font-size:28px;
+    top: 458.5%;
+    left:525px;
+    position: absolute;
+
+}
+#fx1{
+
+    font-size:28px;
+    top: 458.5%;
+    left:452px;
+    position: absolute;
+
+}
+
+#css1{
+    font-size:28px;
+    top: 481.58888%;
+    left:553px;
+    position: absolute;
+}
+
+#mysql1{
+
+    font-size:28px;
+    top: 447.2%;
+    left:965px;
+    position: absolute;
+
+}
+
+#html1{
+
+    font-size:28px;
+    top: 470.2%;
+    left:972px;
+    position: absolute;
+
+}
+
+#js1{
+    font-size:28px;
+    top: 493.2%;
+    left:995px;
+    position: absolute;
 }
