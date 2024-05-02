@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="70% complete of assignment section" />
+    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="70% complete of assignment section">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,6 +101,7 @@
       <workItem from="1714137556539" duration="7154000" />
       <workItem from="1714187032072" duration="853000" />
       <workItem from="1714360079229" duration="12606000" />
+      <workItem from="1714626682794" duration="1746000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
@@ -169,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714373702868</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="70% complete of assignment section">
+      <created>1714626746580</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714626746580</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
