@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="70% complete of assignment section">
+    <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="create contact me page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/contactme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/contactme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/portfoliyo_with_CSS/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/portfoliyo_with_CSS/assets&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -56,11 +57,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_CSS\assets" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_CSS\assets\images" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_CSS\assets\icons" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_only_HTMLnew\assets\style" />
       <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo_with_only_HTMLnew\assets\images" />
-      <recent name="C:\Users\ASUS\IdeaProjects\portfoliyo with only HTML\assets\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +102,11 @@
       <workItem from="1714137556539" duration="7154000" />
       <workItem from="1714187032072" duration="853000" />
       <workItem from="1714360079229" duration="12606000" />
-      <workItem from="1714626682794" duration="1746000" />
+      <workItem from="1714626682794" duration="2268000" />
+      <workItem from="1714662595887" duration="1330000" />
+      <workItem from="1714750426414" duration="623000" />
+      <workItem from="1714898668739" duration="699000" />
+      <workItem from="1714901496903" duration="2672000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
@@ -181,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714626746580</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create contact me page">
+      <created>1714628590414</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714628590414</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +208,7 @@
     <MESSAGE value="skills section updated" />
     <MESSAGE value="assignment section updated" />
     <MESSAGE value="70% complete of assignment section" />
-    <option name="LAST_COMMIT_MESSAGE" value="70% complete of assignment section" />
+    <MESSAGE value="create contact me page" />
+    <option name="LAST_COMMIT_MESSAGE" value="create contact me page" />
   </component>
 </project>

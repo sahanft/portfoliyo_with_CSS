@@ -9,3 +9,64 @@
     letter-spacing: 35px;
 }
 
+#contact-para{
+    position: absolute;
+    top: 4514px;
+    left: 160px;
+    font-size: 32px;
+    font-weight: bold;
+}
+#contactimg{
+    position: absolute;
+    top: 4610px;
+    left: 162px;
+}
+
+#contactside{
+
+    position: absolute;
+    transform: rotate(90deg);
+
+    color: #ffffff;
+    font-family: "Lexend Zetta", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+
+    font-size: 40px;
+
+
+    top:682%;
+    left: 88.5%;
+
+
+}
+#contactline1{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 647%;
+    left: 1329.2px;
+    width: 255px;
+    height: 6px;
+    background-color: #ffffff;
+
+}
+#contactline2{
+
+    position: absolute;
+    transform:rotate(90deg) ;
+    top: 722%;
+    left:1329.2px;
+    width: 255px;
+    height: 6px;
+    background-color: #ffffff;
+
+}
+#name{
+    position: absolute;
+    width: 400px;
+    top: 5000px;
+
+
+
+}
