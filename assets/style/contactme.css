@@ -62,11 +62,142 @@
     background-color: #ffffff;
 
 }
-#name{
-    position: absolute;
-    width: 400px;
-    top: 5000px;
+#name {
+        position: absolute;
+        width: 610px;
+        height: 28px;
+        top: 4700px;
+        left: 735px;
+        border: 2px solid grey;
+        background-color: grey;
 
+}
+
+
+
+
+
+
+
+#email{
+
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4800px;
+    left: 735px;
+    border: 2px solid grey;
+    background-color: grey;
+
+}
+
+#mobile{
+
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4900px;
+    left: 735px;
+    border: 2px solid grey;
+    background-color: grey;
+
+
+
+}
+#details{
+
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 5000px;
+    left: 735px;
+    border: 2px solid grey;
+    background-color: grey;
+
+}
+#name0{
+
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4675px;
+    left: 735.5px;
+
+}
+
+#email0{
+
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4775px;
+    left: 735.5px;
+
+}
+#mobile0{
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4875px;
+    left: 735.5px;
+
+}
+#details0{
+    position: absolute;
+    width: 610px;
+    height: 28px;
+    top: 4975px;
+    left: 735.5px;
+
+}
+#nameline{
+    position: absolute;
+    top: 4728px;
+    width: 610px;
+    height: 2px;
+    left: 735px;
+   background-color: black;
+}
+#nameline2{
+    position: absolute;
+    top: 4828px;
+    width: 610px;
+    height: 2px;
+    left: 735px;
+    background-color: black;
+}
+#nameline3{
+
+    position: absolute;
+    top: 4928px;
+    width: 610px;
+    height: 2px;
+    left: 735px;
+    background-color: black;
+
+}
+#nameline4{
+    position: absolute;
+    top: 5028px;
+    width: 610px;
+    height: 2px;
+    left: 735px;
+    background-color: black;
+
+}
+#button{
+
+
+    position: absolute;
+    top: 5117px;
+    left: 940px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: black;
+    border: 2px solid white;
 
 
 }

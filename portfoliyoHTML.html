@@ -613,19 +613,33 @@
     <img id="contactimg" src="assets/mypic%203.jpeg"title="sahan.lk" alt="instergram logo " width="456" height="632">
 
     <div>
-        <label for="name" id="contactname"></label>
-        <input type="text" id="name" value="name"><br><br>
-        <label for="email"></label>
-        <input type="email" id="email" value="email"><br><br>
-        <input type="tel"placeholder="07xxxxxxxx" pattern="{0-9}{3}{0-9}{3}{0-9}{4}"><br><br>
-        <label for="details"></label>
-        <input type="text" id="details" value="text"><br><br>
+        <label for="name" id="name0" >name:</label>
+        <input type="text" id="name" placeholder="name" ><br><br>
+
+        <label for="email" id="email0">email address:</label>
+        <input type="email" id="email" placeholder="email"><br><br>
+
+        <label for="mobile" id="mobile0">contact number:</label>
+        <input type="tel"placeholder="07xxxxxxxx" pattern="{0-9}{3}{0-9}{3}{0-9}{4}" id="mobile"><br><br>
+        <label for="details" id="details0">text here:</label>
+
+        <input type="text" id="details" placeholder="text here"><br><br>
+
         <input type="button" id="button" value="send">
+
+        <div id="nameline"></div>
+        <div id="nameline2"></div>
+        <div id="nameline3"></div>
+        <div id="nameline4"></div>
+
+
     </div>
 
     <div>
-        <h3>CONTACT ME</h3>
+        <p id="contactside">CONTACT</p>
     </div>
+    <div id="contactline1"></div>
+    <div id="contactline2"></div>
 
 
 
@@ -636,7 +650,7 @@
 <footer>
 
 
-    <img src="assets/icons/instagram%20footer.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
+  <!--  <img src="assets/icons/instagram%20footer.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
     <img src="assets/icons/github%20footer.png"title="sahan.lk" alt="github logo" width="40" height="40">
     <img src="assets/icons/fb%20footer.png"title="sahan.lk" alt="fb logo" width="50" height="50">
     <img src="assets/icons/linkedin%20footer.png"title="sahan.lk" alt="linkedin logo" width="50" height="50">
@@ -656,14 +670,34 @@
     <div>
         <h5>Designed by UDAKARA FERNANDO</h5>
     </div>
+-->
 
-    <div>
-        <p id="contactside">CONTACT</p>
-    </div>
-    <div id="contactline1"></div>
-    <div id="contactline2"></div>
 
-</footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://web.facebook.com/PASINDU.T.B" target="_blank"><i class="bx bxl-facebook"></i></a>
+                <a href="https://wa.me/+94787149579" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/pasindu-tb" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/pasindusampath" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#home-section">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Assignments</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                Copyright © 2023 All rights reserved || Designed By: Pasindu Sampath
+            </div>
+        </div>
+    </footer>
+
+
 
 </body>
 </html>
