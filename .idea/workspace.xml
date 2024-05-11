@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="create contact me page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/assignment.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/contactme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/contactme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfoliyoHTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfoliyoHTML.html" afterDir="false" />
     </list>
@@ -107,6 +106,9 @@
       <workItem from="1714750426414" duration="623000" />
       <workItem from="1714898668739" duration="699000" />
       <workItem from="1714901496903" duration="2672000" />
+      <workItem from="1715180419925" duration="2265000" />
+      <workItem from="1715355828774" duration="631000" />
+      <workItem from="1715396921088" duration="531000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />

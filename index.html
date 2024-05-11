@@ -30,6 +30,15 @@
     <link rel="stylesheet" href="assets/style/skills.css">
     <link rel="stylesheet" href="assets/style/assignment.css">
     <link rel="stylesheet" href="assets/style/contactme.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--animate.css-->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
 </head>
 
 
@@ -64,7 +73,10 @@
         </nav>
     </ul>
 
-    <div class="container">
+    <!--adding aos-->
+    <div class="container"  data-aos="fade-down"
+                         data-aos-easing="linear"
+                         data-aos-duration="1500" >
 
         <img src="assets/images/mypic%201.jpg" alt="homepage icon" class="homepageicon" width="1536" height="982">
 
@@ -101,7 +113,7 @@
         <img id="pic2" src="assets/images/Dark(4).jpeg"title="" alt="aboutpage icon" width="768 " height="995">
     </div>
 
-    <div>
+    <div >
         <p id="aboutt">About</p>
     </div>
 
@@ -613,7 +625,7 @@
     <img id="contactimg" src="assets/mypic%203.jpeg"title="sahan.lk" alt="instergram logo " width="456" height="632">
 
     <div>
-        <label for="name" id="name0" >name:</label>
+        <label  "name" id="name0" >name:</label>
         <input type="text" id="name" placeholder="name" ><br><br>
 
         <label for="email" id="email0">email address:</label>
@@ -649,8 +661,9 @@
 
 <footer>
 
+<!--
 
-  <!--  <img src="assets/icons/instagram%20footer.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
+    <img src="assets/icons/instagram%20footer.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
     <img src="assets/icons/github%20footer.png"title="sahan.lk" alt="github logo" width="40" height="40">
     <img src="assets/icons/fb%20footer.png"title="sahan.lk" alt="fb logo" width="50" height="50">
     <img src="assets/icons/linkedin%20footer.png"title="sahan.lk" alt="linkedin logo" width="50" height="50">
@@ -670,34 +683,18 @@
     <div>
         <h5>Designed by UDAKARA FERNANDO</h5>
     </div>
+
 -->
+    <p>&copy; 2024 Your Name</p>
 
-
-        <div class="footer">
-            <div class="row">
-                <a href="https://web.facebook.com/PASINDU.T.B" target="_blank"><i class="bx bxl-facebook"></i></a>
-                <a href="https://wa.me/+94787149579" target="_blank"><i class='bx bxl-whatsapp'></i></a>
-                <a href="https://www.linkedin.com/in/pasindu-tb" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/pasindusampath" target="_blank"><i class='bx bxl-github'></i></a>
-            </div>
-
-            <div class="row">
-                <ul>
-                    <li><a href="#home-section">Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Assignments</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="row">
-                Copyright © 2023 All rights reserved || Designed By: Pasindu Sampath
-            </div>
-        </div>
     </footer>
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
 
 </body>
 </html>
