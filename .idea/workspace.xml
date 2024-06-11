@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="create contact me page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/portfoliyo_with_CSS/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/portfolio&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -109,7 +111,13 @@
       <workItem from="1715355828774" duration="631000" />
       <workItem from="1715396921088" duration="531000" />
       <workItem from="1715407439571" duration="2551000" />
-      <workItem from="1715410023175" duration="699000" />
+      <workItem from="1715410023175" duration="1312000" />
+      <workItem from="1715439143736" duration="907000" />
+      <workItem from="1715845168334" duration="1510000" />
+      <workItem from="1716397659394" duration="726000" />
+      <workItem from="1717883238512" duration="594000" />
+      <workItem from="1718020371049" duration="1130000" />
+      <workItem from="1718084032730" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />
@@ -203,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715409986613</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create contact me page">
+      <created>1715410850598</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1715410850598</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

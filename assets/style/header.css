@@ -130,15 +130,9 @@ nav {
     .slide {
         column-gap: 3vh;
     }
+}
 
 
-
-
-
-
-
-
-    }
 .container {
     position: relative;
     display: inline-block;
@@ -264,5 +258,146 @@ nav {
     left: 43%;
 
 }
+
+/******************** 320px mediaquary ************************/
+/**************************************************************/
+@media (max-width: 320px) {
+
+    .nav-bar {
+        display: none;
+    }
+
+    .container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .homepageicon {
+        height: 1000px;
+        width: 1300px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        top: 70px;
+        left: 80px;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+
+    .text-overlay {
+        position: absolute;
+        top: 60%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        margin-bottom: 40px;
+
+    }
+
+    .text-overlay>p {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: bold;
+
+
+
+
+    }
+    #myport{
+
+        font-size: 40px;
+        color: #ffffff;
+
+    }
+    #detail{
+
+        font-size: 20px;
+        color: #ffffff;
+
+    }
+
+    #home{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:-20%;
+        left: 277%;
+
+
+    }
+
+    #line1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: -150%;
+        left: 257%;
+        width: 65%;
+        height: 6px;
+        background-color: #ffffff;
+
+    }
+    #line2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 132%;
+        left: 257%;
+        width: 65%;
+        height: 6px;
+        background-color: #ffffff;
+
+
+    }
+
+    #inster{
+
+        position: absolute;
+        top: 200%;
+
+    }
+    #github{
+
+        border-radius: 10px;
+        position: absolute;
+        top: 201%;
+        left: 17%;
+
+    }
+    #fb{
+
+        border-radius: 14px;
+        position: absolute;
+        top: 200%;
+        left: 30%;
+
+    }
+    #linked{
+
+        border-radius: 14px;
+        position: absolute;
+        top: 200%;
+        left: 43%;
+
+    }
+
+}
+
+
 
 
