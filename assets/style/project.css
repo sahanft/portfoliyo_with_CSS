@@ -124,14 +124,14 @@
     left: 0;
     right: 0;
     margin: auto;
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
 }
 .card-back-button:hover{
     color: #8F43EE;
 }
 .card-back-button:visited{
-    color: #2041ff;
+    color: #808080;
 }
 .card__body {
     transform: var(--level-two);
@@ -396,6 +396,230 @@
     background-color: #ffffff;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width: 768px) {
+
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between the cards */
+    }
+
+    .card {
+        width: 100%; /* Make the card take full width of its container */
+        max-width: 400px; /* Optional: Limit the maximum width of each card */
+        margin: 0 auto; /* Center the card horizontally */
+        position: relative;
+    }
+
+    .card__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__front, .card__back {
+        width: 100%;
+    }
+
+    .card__title, .card__subtitle, .card__body {
+        text-align: center;
+    }
+    #projecttopic{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 1910px;
+        left: -35px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+
+
+
+
+
+
+
+
+    #projectside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:397.5%;
+        left: 88.88%;
+        display: none;
+
+    }
+
+    #projectline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 335%;
+        left: 1149px;
+        width: 620px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #projectline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 461.5%;
+        left:1179px;
+        width: 555px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+}
+
+
+
+
+@media  (max-width: 425px) {
+
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between the cards */
+    }
+
+    .card {
+        width: 100%; /* Make the card take full width of its container */
+        max-width: 400px; /* Optional: Limit the maximum width of each card */
+        margin: 0 auto; /* Center the card horizontally */
+        position: relative;
+    }
+
+    .card__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__front, .card__back {
+        width: 100%;
+    }
+
+    .card__title, .card__subtitle, .card__body {
+        text-align: center;
+    }
+    #projecttopic{
+        font-size: 16.5px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 1910px;
+        left: -150px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+
+
+
+
+
+
+
+
+    #projectside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:397.5%;
+        left: 88.88%;
+        display: none;
+
+    }
+
+    #projectline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 335%;
+        left: 1149px;
+        width: 620px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #projectline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 461.5%;
+        left:1179px;
+        width: 555px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+}
+
+
+
+
+
+
+
+
 
 
 

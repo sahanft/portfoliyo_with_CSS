@@ -149,11 +149,11 @@
     width: 140px;
     position: absolute;
     bottom: 20px;
-    top: 140px;
+    top: -265px;
     left: 0;
     right: 0;
     margin: auto;
-    color: #ffffff;
+    color: black;
     font-size: 24px;
 }
 
@@ -167,11 +167,11 @@
     width: 140px;
     position: absolute;
     bottom: 20px;
-    top: 20px;
+    top: -362px;
     left: 0;
     right: 0;
     margin: auto;
-    color: #ffffff;
+    color: black;
     font-size: 24px;
 
 }
@@ -185,30 +185,97 @@
     width: 140px;
     position: absolute;
     bottom: 20px;
-    top: -100px;
+    top: -44px;
     left: 0;
     right: 0;
     margin: auto;
-    color: #ffffff;
+    color: black;
+    font-size: 24px;
+}
+
+.card-back-button5{
+    transform: var(--level-two);
+    background-color: transparent;
+    border: 3px solid ;
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    bottom: 20px;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
+    font-size: 24px;
+}
+.card-back-button6{
+    transform: var(--level-two);
+    background-color: transparent;
+    border: 3px solid ;
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    bottom: -500px;
+    top: -140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
+    font-size: 24px;
+}
+.card-back-button7{
+    transform: var(--level-two);
+    background-color: transparent;
+    border: 3px solid ;
+    border-radius: 50px;
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    bottom: 20px;
+    top: 280px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: black;
     font-size: 24px;
 }
 .card-back-button2:hover{
     color: #8F43EE;
 }
 .card-back-button2:visited{
-    color: #2041ff;
+    color: #808080;
 }
 .card-back-button3:hover{
     color: #8F43EE;
 }
 .card-back-button3:visited{
-    color: #2041ff;
+    color: #808080;
 }
 .card-back-button4:hover{
     color: #8F43EE;
 }
+.card-back-button5:hover{
+    color: #8F43EE;
+}
+.card-back-button6:hover{
+    color: #8F43EE;
+}
+.card-back-button7:hover{
+    color: #8F43EE;
+}
 .card-back-button4:visited{
-    color: #2041ff;
+    color: #808080;
+}
+.card-back-button5:visited{
+    color: #808080;
+}
+.card-back-button6:visited{
+    color: #808080;
+}
+.card-back-button7:visited{
+    color: #808080;
 }
 .card__body2 {
     transform: var(--level-two);
@@ -451,7 +518,7 @@
 
 
     top:50%;
-    left: 86.15%;
+    left: 93%;
 
 }
 
@@ -485,3 +552,223 @@
     top: 7000px;
 
 }*/
+
+
+
+
+
+
+@media  (max-width: 768px){
+
+
+    #assignmentside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:50%;
+        left: 86.15%;
+        display: none;
+
+    }
+
+    #assignmentline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 22%;
+        left: 1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #assignmentline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 84%;
+        left:1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    .assignmets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards2 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between the cards */
+        position: absolute;
+        left: 40px;
+        top: 1340px;
+    }
+
+    #assignmenttopic{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 4780px;
+        left: -35%;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+
+    .card2 {
+        width: 100%; /* Make the card take full width of its container */
+        max-width: 600px; /* Optional: Limit the maximum width of each card */
+        margin: 0 auto; /* Center the card horizontally */
+        position: relative;
+    }
+
+    .card__content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__front2, .card__back2 {
+        width: 100%;
+    }
+
+    .card__title2, .card__body2 {
+        text-align: center;
+    }
+
+   /* !* Media Query for screen width 768px or less *!
+    @media screen and (max-width: 768px) {
+        .card2 {
+            max-width: 100%; !* Ensure cards are still full width on smaller screens *!
+        }
+    }*/
+
+
+}
+
+
+
+@media  (max-width: 425px){
+
+
+    #assignmentside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:50%;
+        left: 86.15%;
+        display: none;
+
+    }
+
+    #assignmentline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 22%;
+        left: 1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #assignmentline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 84%;
+        left:1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    .assignmets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards2 {
+        height: 700px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between the cards */
+        position: absolute;
+        left: -80px;
+        top: 1040px;
+    }
+
+    #assignmenttopic{
+        font-size: 16.5px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 4000px;
+        left: -189.5px;
+        transform: translateX(50%);
+        letter-spacing: 20px;
+    }
+
+    .card2 {
+        width: 100%; /* Make the card take full width of its container */
+        max-width: 600px; /* Optional: Limit the maximum width of each card */
+        margin: 0 auto; /* Center the card horizontally */
+        position: relative;
+    }
+
+    .card__content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__front2, .card__back2 {
+        width: 100%;
+    }
+
+    .card__title2, .card__body2 {
+        text-align: center;
+    }
+
+    /* !* Media Query for screen width 768px or less *!
+     @media screen and (max-width: 768px) {
+         .card2 {
+             max-width: 100%; !* Ensure cards are still full width on smaller screens *!
+         }
+     }*/
+
+
+}

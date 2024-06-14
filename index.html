@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="assets/style/assignment.css">
     <link rel="stylesheet" href="assets/style/contactme.css">
     <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="stylesheet" href="assets/style/div_pages.css">
     <!--aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--animate.css-->
@@ -48,13 +49,15 @@
 <header>
 
     <section class="nav-bar">
+
     <ul class="slide-bar">
 
-        <a class="navbar slide" href="#home">HOME</a>
-        <a class="navbar slide" href="#about">ABOUT</a>
-        <a class="navbar slide" href="#service">PROJECT</a>
-        <a class="navbar slide" href="#work">ASSIGNMENT</a>
-        <a class="navbar slide" href="#goals">CONTACT</a>
+        <a class="navbar slide" href="#ud">HOME</a>
+        <a class="navbar slide" href="#aboutt">ABOUT</a>
+        <a class="navbar slide" href="#projecttopic">PROJECT</a>
+        <a class="navbar slide" href="#assignmenttopic">ASSIGNMENT</a>
+        <a class="navbar slide" href="#contacttopic">CONTACT</a>
+
 <!--
         <a class="navbar slide" href="#contact">CONTACT</a>
 -->
@@ -63,13 +66,14 @@
     </ul>
     <ul class="list">
         <nav>
-            <a class="navbar" href="#home">HOME</a>
-            <a class="navbar" href="#about">ABOUT</a>
-            <a class="navbar" href="#service">PROJECT</a>
-            <a class="navbar" href="#work">ASSIGNMENT</a>
-            <a class="navbar" href="#goals">CONTACT</a>
+            <a class="navbar" href="#ud">HOME</a>
+            <a class="navbar" href="#aboutt">ABOUT</a>
+            <a class="navbar" href="#projecttopic">PROJECT</a>
+            <a class="navbar" href="#assignmenttopic">ASSIGNMENT</a>
+            <a class="navbar" href="#contacttopic">CONTACT</a>
             <!--<a class="navbar" href="#contact">CONTACT</a>-->
-            <img src="assets/icons/menu-icon.png" class="menu-icon" alt="" style="height: 30px; width: 30px; color: #000">
+          <!--  <img src="./assets/images/icons8-menu-50.png" class="menu-icon" alt="" style="height: 30px; width: 30px; color: #000">-->
+            <img src="assets/images/icons8-menu-50.png" id="corner-image" alt="Corner Image">
             <span class="span"></span>
         </nav>
     </ul>
@@ -80,13 +84,19 @@
                          data-aos-easing="linear"
                          data-aos-duration="1500" >
 
-        <img src="assets/images/mypic%201.jpg" alt="homepage icon" class="homepageicon" width="1536" height="982">
+        <img src="assets/images/mypic%201.jpg" alt="homepage icon" id="homepageicon" >
 
-         <img src="assets/icons/uf.jpg"title="sahan.lk" alt="udakara fernando logo" class="logo" >
+         <img src="assets/icons/uf.jpg"title="sahan.lk" alt="udakara fernando logo" class="logo" id="ud" >
 
         <div class="text-overlay">
-            <p>Hello I'm</p><br>
-            <p id="myport">UDAKARA FERNANDO</p>
+            <p id="hello">Hello I'm</p><br>
+
+<!--
+            <p id="myport">UDAKARA</a> FERNANDO</p>
+-->
+
+
+            <p id="myport" ><a href="https://github.com/pasindusampath/My-Portfolio" id="myLink">UDAKARA FERNANDO</a></p>
             <p id="detail">Fullstack Developer</p>
 
             <div>
@@ -111,8 +121,11 @@
 
 <section>
 
-    <div>
-        <img id="pic2" src="assets/images/Dark(4).jpeg"title="" alt="aboutpage icon" width="768 " height="995">
+
+    <div class="container"  data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
+        <img id="pic2" src="assets/images/new%20pic.jpg"title="" alt="aboutpage icon">
     </div>
 
     <div >
@@ -122,9 +135,10 @@
     <div class="about-text">
 
         <div class="aboutnew">
-            <h5>Hello, I'm <a href="your_link_here" class="colorchange">UDAKARA</a> FERNANDO.</h5><br>
-            <h5>A undergraduate student</h5>
+            <h5 id="about_hello">Hello, I'm <a href="your_link_here" class="colorchange">UDAKARA</a> FERNANDO.</h5><br>
+           <div id="ijsestudent"> <h5>A undergraduate student</h5>
             <h5>of <a href="your_link_here" class="colorchange">IJSE</a> Institute.</h5><br><br>
+           </div>
         </div>
         <br>
         <br>
@@ -132,11 +146,11 @@
         <br>
         <br>
         <div class="aboutnew">
-            <h5>Name - Sahan Udakara Fernando</h5><br>
-            <h5>Birthday - 2001.05.30</h5><br>
-            <h5>Adress - NO-61,mahaheenatiyangala,kalutara</h5><br>
-            <h5>gmail - <a href="" class="colorchange">udakarafernando2001@gmail.com</a></h5><br>
-            <h5>Contact Number - <a href="" class="colorchange">0758206589</a></h5>
+            <h5 id="abaoutn">Name - Sahan Udakara Fernando</h5><br>
+            <h5 id="bday">Birthday - 2001.05.30</h5><br>
+            <h5 id="addrs">Adress - NO-61,mahaheenatiyangala,kalutara</h5><br>
+            <h5 id="mali">gmail - <a href="" class="colorchange">udakarafernando2001@gmail.com</a></h5><br>
+            <h5 id="number">Contact Number - <a href="" class="colorchange">0758206589</a></h5>
         </div>
     </div>
 
@@ -146,13 +160,15 @@
     <div id="aboutline1"></div>
     <div id="aboutline2"></div>
 
+
+
 </section>
 
 <!--project section-->
 
 <section>
 
-    <div id="projecttopic">
+    <div id="projecttopic" >
         <h1>Project</h1>
     </div>
 
@@ -163,7 +179,7 @@
 
             </div>
         </div>
-        <div class="cards">
+        <div class="cards" id="priska">
             <div data-aos="fade-up" class="card">
                 <div class="card__content">
                     <div class="card__front">
@@ -175,7 +191,10 @@
                         <p class="card__body">
                             <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310" >
                         </p>
-                        <input class="card-back-button" type="button" value="view">
+
+                        <a href="https://github.com/pasindusampath/My-Portfolio"><input class="card-back-button" type="button" value="view"></a>
+
+
                     </div>
                 </div>
             </div>
@@ -191,7 +210,9 @@
                         <p class="card__body">
                             <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310">
                         </p>
-                        <input class="card-back-button" type="button" value="view">
+                       <!-- <input class="card-back-button" type="button" value="view">-->
+                        <a href="https://github.com/pasindusampath/My-Portfolio"><input class="card-back-button" type="button" value="view"></a>
+
                     </div>
                 </div>
             </div>
@@ -207,16 +228,18 @@
                         <p class="card__body">
                             <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310">
                             </p>
-                        <input class="card-back-button" type="button" value="view">
+                        <!--<input class="card-back-button" type="button" value="view">-->
+                        <a href="https://github.com/pasindusampath/My-Portfolio"><input class="card-back-button" type="button" value="view"></a>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="paragraphs">
+       <!-- <div class="paragraphs">
             <div class="blur-background">
-<!--
+&lt;!&ndash;
                 <div class="close-button"><i class='bx bx-x'></i></div>
--->
+&ndash;&gt;
             </div>
             <div class="gradient-border">
                 <div class="paragraph-about-card">
@@ -235,7 +258,7 @@
                       </p>
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
 
@@ -260,6 +283,8 @@
     <div id="lline3"></div>
         <div>
 
+
+            <img id="skillimage" src="assets/images/watsaapp.jpg" alt="">
             <img id="javalogo" src="assets/icons/java%20icon.png"title="java.com" alt="java logo" >
             <h4 id="j1">JAVA</h4>
 
@@ -295,6 +320,8 @@
 <!--assignment section-->
 
 <section>
+
+    <div id="assignmentdiv">
     <div id="assignmenttopic">
         <h1>Assignment</h1>
     </div>
@@ -312,21 +339,26 @@
                     <div class="card__front2">
                         <h3 class="card__title2">SECTION <a href="" class="sectionnumber">1</a></h3>
 <!--
-                        <img class="image-in-card1" src="assets/images/projects%20image2.jpg">
--->
-<!--
-                        <p class="card__subtitle2">movie theater management system</p>
+
 -->
                     </div>
                     <div class="card__back2">
                         <p class="card__body2">
 <!--
-                            <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310" >
+
 -->
                         </p>
-                        <input class="card-back-button2" type="button" value="view">
-                        <input class="card-back-button3" type="button" value="view">
-                        <input class="card-back-button4" type="button" value="view">
+
+
+
+                        <a href="link_to_page1.html"><input class="card-back-button2" type="button" value="view"></a>
+                        <a href="link_to_page2.html"><input class="card-back-button3" type="button" value="01"></a>
+                        <a href="link_to_page3.html"><input class="card-back-button4" type="button" value="02"></a>
+                        <a href="link_to_page4.html"><input class="card-back-button5" type="button" value="view"></a>
+                        <a href="link_to_page5.html"><input class="card-back-button6" type="button" value="view"></a>
+                        <a href="link_to_page6.html"><input class="card-back-button7" type="button" value="03"></a>
+
+
                     </div>
                 </div>
             </div>
@@ -335,22 +367,22 @@
                 <div class="card__content2">
                     <div class="card__front2">
                         <h3 class="card__title2">SECTION <a href="" class="sectionnumber">2</a></h3>
-                        <!--
-                                                <img class="image-in-card1" src="assets/images/projects%20image2.jpg">
-                        -->
-<!--
-                        <p class="card__subtitle2">movie theater management system</p>
--->
+
+
                     </div>
                     <div class="card__back2">
                         <p class="card__body2">
-                            <!--
-                                                        <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310" >
-                            -->
+
                         </p>
-                        <input class="card-back-button2" type="button" value="view">
-                        <input class="card-back-button3" type="button" value="view">
-                        <input class="card-back-button4" type="button" value="view">
+
+
+                        <a href="link_to_page1.html"><input class="card-back-button2" type="button" value="view"></a>
+                        <a href="link_to_page2.html"><input class="card-back-button3" type="button" value="04"></a>
+                        <a href="link_to_page3.html"><input class="card-back-button4" type="button" value="05"></a>
+                        <a href="link_to_page4.html"><input class="card-back-button5" type="button" value="view"></a>
+                        <a href="link_to_page5.html"><input class="card-back-button6" type="button" value="view"></a>
+                        <a href="link_to_page6.html"><input class="card-back-button7" type="button" value="06"></a>
+
                     </div>
                 </div>
             </div>
@@ -359,22 +391,21 @@
                 <div class="card__content2">
                     <div class="card__front2">
                         <h3 class="card__title2">SECTION <a href="" class="sectionnumber">3</a></h3>
-                        <!--
-                                                <img class="image-in-card1" src="assets/images/projects%20image2.jpg">
-                        -->
-<!--
-                        <p class="card__subtitle2">movie theater management system</p>
--->
+
                     </div>
                     <div class="card__back2">
                         <p class="card__body2">
-                            <!--
-                                                        <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310" >
-                            -->
+
                         </p>
-                        <input class="card-back-button2" type="button" value="view">
-                        <input class="card-back-button3" type="button" value="view">
-                        <input class="card-back-button4" type="button" value="view">
+
+
+                        <a href="link_to_page1.html"><input class="card-back-button2" type="button" value="view"></a>
+                        <a href="link_to_page2.html"><input class="card-back-button3" type="button" value="07"></a>
+                        <a href="link_to_page3.html"><input class="card-back-button4" type="button" value="08"></a>
+                        <a href="link_to_page4.html"><input class="card-back-button5" type="button" value="view"></a>
+                        <a href="link_to_page5.html"><input class="card-back-button6" type="button" value="view"></a>
+                        <a href="link_to_page6.html"><input class="card-back-button7" type="button" value="09"></a>
+
                     </div>
                 </div>
             </div>
@@ -383,22 +414,20 @@
                 <div class="card__content2">
                     <div class="card__front2">
                         <h3 class="card__title2">SECTION <a href="" class="sectionnumber">4</a></h3>
-                        <!--
-                                                <img class="image-in-card1" src="assets/images/projects%20image2.jpg">
-                        -->
-<!--
-                        <p class="card__subtitle2">movie theater management system</p>
--->
+
                     </div>
                     <div class="card__back2">
                         <p class="card__body2">
-                            <!--
-                                                        <img src="assets/images/mypic%204.jpg" alt="" height="310" width="310" >
-                            -->
+
                         </p>
-                        <input class="card-back-button2" type="button" value="view">
-                        <input class="card-back-button3" type="button" value="view">
-                        <input class="card-back-button4" type="button" value="view">
+
+                        <a href="link_to_page1.html"><input class="card-back-button2" type="button" value="view"></a>
+                        <a href="link_to_page2.html"><input class="card-back-button3" type="button" value="10"></a>
+                        <a href="link_to_page3.html"><input class="card-back-button4" type="button" value="11"></a>
+                        <a href="link_to_page4.html"><input class="card-back-button5" type="button" value="view"></a>
+                        <a href="link_to_page5.html"><input class="card-back-button6" type="button" value="view"></a>
+                        <a href="link_to_page6.html"><input class="card-back-button7" type="button" value="12"></a>
+
                     </div>
                 </div>
 
@@ -406,11 +435,9 @@
 
 
             </div>
-        <div class="paragraphs2">
+       <!-- <div class="paragraphs2">
             <div class="blur-background2">
-                <!--
-                                <div class="close-button"><i class='bx bx-x'></i></div>
-                -->
+
             </div>
             <div class="gradient-border2">
                 <div class="paragraph-about-card2">
@@ -430,13 +457,17 @@
                 </div>
             </div>
         </div>
-
+-->
         <div>
             <p id="assignmentside">ASSIGNMENT</p>
         </div>
         <div id="assignmentline1"></div>
         <div id="assignmentline2"></div>
             </div>
+
+    </div>
+
+
 
     </section>
     </section>
@@ -623,9 +654,9 @@
 
 
         <p id="contact-para">Please feel free to reach out, and I'll get back to you as <br> soon as possible.</p>
-
+    <div  >
     <img id="contactimg" src="assets/mypic%203.jpeg"title="sahan.lk" alt="instergram logo " width="456" height="632">
-
+        </div>
     <div>
         <label  "name" id="name0" >name:</label>
         <input type="text" id="name" placeholder="name" ><br><br>
@@ -663,7 +694,7 @@
 
 <footer>
 
-<!--
+
 
     <img src="assets/icons/instagram%20footer.png"title="sahan.lk" alt="instergram logo " width="50" height="50">
     <img src="assets/icons/github%20footer.png"title="sahan.lk" alt="github logo" width="40" height="40">
@@ -671,12 +702,12 @@
     <img src="assets/icons/linkedin%20footer.png"title="sahan.lk" alt="linkedin logo" width="50" height="50">
 
     <div>
-        <nav>
-            <a href="">HOME</a>
-            <a href="">ABOUT</a>
-            <a href="">PROJECT</a>
-            <a href="">ASSIGNMENT</a>
-            <a href="">CONTACT</a>
+        <nav id="footer_nav" >
+            <a id="fhome" href="">HOME</a>
+            <a id="fabout" href="">ABOUT</a>
+            <a id="fproject" href="">PROJECT</a>
+            <a id="fassignmnet" href="">ASSIGNMENT</a>
+            <a id="fcontact" href="">CONTACT</a>
         </nav>
     </div>
 
@@ -686,13 +717,14 @@
         <h5>Designed by UDAKARA FERNANDO</h5>
     </div>
 
--->
+
     <p>&copy; 2024 Your Name</p>
 
     </footer>
 
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 <script>
     AOS.init();

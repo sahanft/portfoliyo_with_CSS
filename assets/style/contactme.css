@@ -201,3 +201,467 @@
 
 
 }
+
+@media  (max-width: 768px){
+
+    #contacttopic {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 6980px;
+        left: -35%;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+
+    }
+
+    #contact-para{
+        position: absolute;
+        top: 7070px;
+        left: 70px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    #contactimg{
+        position: absolute;
+        top: 7131px;
+        left: 72px;
+        width: 300px;
+        height: 617px;
+
+    }
+
+    #contactside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:682%;
+        left: 88.5%;
+        display: none;
+
+
+    }
+    #contactline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 647%;
+        left: 1329.2px;
+        width: 255px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #contactline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 722%;
+        left:1329.2px;
+        width: 255px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #name {
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7250px;
+        left: 414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+
+
+
+
+
+
+
+    #email{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7310px;
+        left:414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+
+    #mobile{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7370px;
+        left:414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+
+
+    }
+    #details{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7430px;
+        left:414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+    #name0{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7225px;
+        left: 414px;
+
+
+    }
+
+    #email0{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7285px;
+        left:414px;
+
+
+    }
+    #mobile0{
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7345px;
+        left:414px;
+
+
+
+    }
+    #details0{
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7405px;
+        left:414px;
+
+
+    }
+    #nameline{
+        position: absolute;
+        top: 7278px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+    }
+    #nameline2{
+        position: absolute;
+        top: 7338px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+    }
+    #nameline3{
+
+        position: absolute;
+        top: 7398px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+
+    }
+    #nameline4{
+        position: absolute;
+        top: 7458px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+
+    }
+    #button{
+
+
+        position: absolute;
+        top: 7650px;
+        left: 488px;
+        width: 155px;
+        height: 28px;
+        border-radius: 10px;
+        font-size: 25px;
+        color: #FFFFFF;
+        background-color: black;
+        border: 2px solid white;
+
+
+
+    }
+
+
+}
+
+
+
+@media  (max-width: 425px){
+
+    #contacttopic {
+        font-size: 16.5px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 5880px;
+        left: -189.5px;
+        transform: translateX(50%);
+        letter-spacing: 20px;
+    }
+
+    #contact-para{
+        position: absolute;
+        top: 5980px;
+        left: 22px;
+        font-size: 17px;
+        font-weight: bold;
+
+    }
+    #contactimg{
+        position: absolute;
+        top: 6050px;
+        left: 65px;
+        width: 300px;
+        height: 400px;
+
+    }
+
+    #contactside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:682%;
+        left: 88.5%;
+        display: none;
+
+
+    }
+    #contactline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 647%;
+        left: 1329.2px;
+        width: 255px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #contactline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 722%;
+        left:1329.2px;
+        width: 255px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #name {
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 6525px;
+        left: 64px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+
+
+
+
+
+
+
+    #email{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7310px;
+        left: 64px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+
+    #mobile{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7370px;
+        left:414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+
+
+    }
+    #details{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7430px;
+        left:414px;
+        border: 2px solid grey;
+        background-color: grey;
+
+
+    }
+    #name0{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 6500px;
+        left: 64px;
+
+
+    }
+
+    #email0{
+
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7285px;
+        left: 64px;
+
+
+    }
+    #mobile0{
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7345px;
+        left:414px;
+
+
+
+    }
+    #details0{
+        position: absolute;
+        width: 300.1px;
+        height: 28px;
+        top: 7405px;
+        left:414px;
+
+
+    }
+    #nameline{
+        position: absolute;
+        top: 6550px;
+        width: 300.1px;
+        height: 2px;
+        left: 64px;
+        background-color: black;
+
+    }
+    #nameline2{
+        position: absolute;
+        top: 7338px;
+        width: 300.1px;
+        height: 2px;
+        left: 64px;
+        background-color: black;
+
+    }
+    #nameline3{
+
+        position: absolute;
+        top: 7398px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+
+    }
+    #nameline4{
+        position: absolute;
+        top: 7458px;
+        width: 300.1px;
+        height: 2px;
+        left: 417px;
+        background-color: black;
+
+
+    }
+    #button{
+
+
+        position: absolute;
+        top: 7650px;
+        left: 488px;
+        width: 155px;
+        height: 28px;
+        border-radius: 10px;
+        font-size: 25px;
+        color: #FFFFFF;
+        background-color: black;
+        border: 2px solid white;
+
+
+
+    }
+
+
+}
+
