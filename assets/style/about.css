@@ -46,12 +46,12 @@
 
 
 #aboutt {
-    font-size: 64px;
+    font-size: 48px;
     font-weight: bold;
     font-family: "Audiowide", sans-serif;
     position: absolute;
     top: 1050px;
-    left: 765px;
+    left: -1000px;
     transform: translateX(50%);
     letter-spacing: 35px;
 
@@ -89,7 +89,98 @@ div a{
 }
 
 
+@media (width: 1024px){
+    #about{
 
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:210%;
+        left: 90.2%;
+
+
+    }
+
+
+
+    #aboutline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 170%;
+        left: 1324px;
+        width: 270px;
+        height: 6px;
+        background-color: #ffffff;
+
+    }
+    #aboutline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 255%;
+        left:1324px;
+        width: 270px;
+        height: 6px;
+        background-color: #ffffff;
+
+
+    }
+
+
+    #aboutt {
+        font-size: 64px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 1050px;
+        left: 765px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+
+
+    }
+
+    .about-text{
+        position: absolute;
+        top: 1480px;
+        left: 1056px;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    div a{
+        text-decoration: none;
+    }
+
+    .aboutnew{
+        color: #ffffff;
+    }
+
+    .aboutnew a.colorchange {
+        color: #ffffff;
+    }
+    .aboutnew a.colorchange:hover{
+        color: #8F43EE;
+    }
+
+    #pic2{
+        width: 512px;
+        height: 995px;
+    }
+
+}
 @media (max-width: 768px) {
 
     #about{
@@ -387,7 +478,7 @@ div a{
 }
 
 
-@media (max-width: 375px) {
+@media (width: 375px) {
 
     #about{
 

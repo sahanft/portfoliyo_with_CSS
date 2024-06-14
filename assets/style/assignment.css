@@ -772,3 +772,113 @@
 
 
 }
+
+
+
+
+@media  (width: 375px){
+
+
+    #assignmentside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:50%;
+        left: 86.15%;
+        display: none;
+
+    }
+
+    #assignmentline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 22%;
+        left: 1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #assignmentline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 84%;
+        left:1249px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    .assignmets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards2 {
+        height: 700px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px; /* Adds space between the cards */
+        position: absolute;
+        left: -80px;
+        top: 1040px;
+    }
+
+    #assignmenttopic{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 4000px;
+        left: -179.5px;
+        transform: translateX(50%);
+        letter-spacing: 20px;
+    }
+
+    .card2 {
+        width: 100%; /* Make the card take full width of its container */
+        max-width: 600px; /* Optional: Limit the maximum width of each card */
+        margin: 0 auto; /* Center the card horizontally */
+        position: relative;
+    }
+
+    .card__content2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__front2, .card__back2 {
+        width: 100%;
+    }
+
+    .card__title2, .card__body2 {
+        text-align: center;
+    }
+
+    /* !* Media Query for screen width 768px or less *!
+     @media screen and (max-width: 768px) {
+         .card2 {
+             max-width: 100%; !* Ensure cards are still full width on smaller screens *!
+         }
+     }*/
+
+
+}

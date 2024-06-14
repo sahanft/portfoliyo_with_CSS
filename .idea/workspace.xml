@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="587dbae0-1405-4b7b-ade7-efa79a1f42e5" name="Changes" comment="create contact me page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/contactme.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/contactme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/assignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/assignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +125,7 @@
       <workItem from="1718186312300" duration="552000" />
       <workItem from="1718261483521" duration="15085000" />
       <workItem from="1718325404135" duration="1262000" />
+      <workItem from="1718380614912" duration="13613000" />
     </task>
     <task id="LOCAL-00001" summary="last commit">
       <option name="closed" value="true" />

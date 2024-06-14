@@ -718,3 +718,246 @@
 
 
 }
+
+
+@media (width: 375px){
+
+    #skillstopic{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 3300px;
+        left: -90px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+
+    #skills2{
+
+        font-size: 24px;
+        position: absolute;
+        top: 3800px;
+        left: 45%;
+        display: none;
+
+
+    }
+
+    #mainline{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 464%;
+        left:440px;
+        width: 650px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #rline1{
+
+
+        position: absolute;
+        top: 440%;
+        left:383px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #rline2{
+
+        position: absolute;
+        top: 463%;
+        left:383px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #rline3{
+
+        position: absolute;
+        top: 486%;
+        left:383px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #lline1{
+
+        position: absolute;
+        top: 451.5%;
+        left:796px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #lline2{
+
+        position: absolute;
+        top: 474.5%;
+        left:796px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+
+    }
+    #lline3{
+
+        position: absolute;
+        top: 497.5%;
+        left:796px;
+        width: 350px;
+        height: 3.5px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #javalogo{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 428%;
+        left:383px;
+        display: none;
+    }
+    #javafxlogo{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 451%;
+        left:383px;
+        display: none;
+    }
+    #csslogo{
+
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 475.4%;
+        left:383px;
+        display: none;
+
+    }
+
+    #mysqllogo{
+
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 441%;
+        left:800px;
+        display: none;
+
+    }
+
+    #htmllogo{
+
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        top: 465%;
+        left:800px;
+        display: none;
+
+    }
+    #jslogo{
+
+        width: 65px;
+        height: 65px;
+        position: absolute;
+        top: 488.5%;
+        left:800px;
+        display: none;
+
+    }
+
+    #j1{
+        font-size:28px;
+        top: 435.5%;
+        left:550px;
+        position: absolute;
+        display: none;
+
+    }
+
+    #jfx1{
+
+        font-size:28px;
+        top: 458.5%;
+        left:525px;
+        position: absolute;
+        display: none;
+
+    }
+    #fx1{
+
+        font-size:28px;
+        top: 458.5%;
+        left:452px;
+        position: absolute;
+        display: none;
+
+    }
+
+    #css1{
+        font-size:28px;
+        top: 481.58888%;
+        left:553px;
+        position: absolute;
+        display: none;
+    }
+
+    #mysql1{
+
+        font-size:28px;
+        top: 447.2%;
+        left:965px;
+        position: absolute;
+        display: none;
+
+    }
+
+    #html1{
+
+        font-size:28px;
+        top: 470.2%;
+        left:972px;
+        position: absolute;
+        display: none;
+
+    }
+
+    #js1{
+        font-size:28px;
+        top: 493.2%;
+        left:995px;
+        position: absolute;
+        display: none;
+    }
+
+    #skillimage{
+        width: 375px;
+        height: 500px;
+        left: 3px;
+        position: absolute;
+        top: 3400px;
+
+    }
+
+
+
+}
