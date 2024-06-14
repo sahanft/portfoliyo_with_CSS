@@ -387,6 +387,154 @@ div a{
 }
 
 
+@media (max-width: 375px) {
+
+    #about{
+
+        /*
+                position: absolute;
+
+
+                color: #ffffff;
+                font-family: "Lexend Zetta", sans-serif;
+                font-optical-sizing: auto;
+                font-weight:bold;
+
+                font-size: 40px;
+
+
+                top:210%;
+                left: 90.2%;*/
+        display: none;
+
+    }
+
+
+
+    #aboutline1{
+
+        position: absolute;
+
+        top: 170%;
+        left: 1324px;
+        width: 270px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+    #aboutline2{
+
+        display: none;
+
+        position: absolute;
+
+        top: 255%;
+        left:1324px;
+        width: 270px;
+        height: 6px;
+        background-color: #ffffff;
+
+
+    }
+
+
+    #aboutt {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 1032px;
+        left: -1000px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+
+
+    }
+
+    .about-text{
+        position: absolute;
+        top: 1480px;
+        left: 1056px;
+        transform: translate(-50%, -50%);
+        padding: 40px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    div a{
+        text-decoration: none;
+    }
+
+    .aboutnew{
+        color: #ffffff;
+    }
+
+    .aboutnew a.colorchange {
+        color: #ffffff;
+    }
+    .aboutnew a.colorchange:hover{
+        color: #8F43EE;
+    }
+
+    #pic2{
+        width: 375px;
+        height: 932px;
+    }
+    #about_hello{
+        font-size: 22px;
+        position: absolute;
+        left: -988px;
+        top: 195px;
+
+    }
+    #ijsestudent{
+
+        font-size: 20px;
+        position: absolute;
+        left:  -988px;
+        top: 230px;
+
+    }
+    #bday{
+
+        font-size: 15px;
+        position: absolute;
+        left:  -988px;
+        top: 310px;
+
+    }
+    #addrs{
+        font-size: 15px;
+        position: absolute;
+        left:  -988px;
+        top: 340px;
+
+    }
+    #mali{
+
+        font-size: 15px;
+        position: absolute;
+        left:  -988px;
+        top: 370px;
+
+    }
+    #number{
+
+        font-size: 15px;
+        position: absolute;
+        left:  -988px;
+        top: 400px;
+
+    }
+    #abaoutn{
+        display: none;
+    }
+
+}
+
+
+
 
 
 

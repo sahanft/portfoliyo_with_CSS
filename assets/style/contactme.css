@@ -531,7 +531,7 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7310px;
+        top: 6585px;
         left: 64px;
         border: 2px solid grey;
         background-color: grey;
@@ -544,8 +544,8 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7370px;
-        left:414px;
+        top: 6645px;
+        left: 64px;
         border: 2px solid grey;
         background-color: grey;
 
@@ -558,8 +558,8 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7430px;
-        left:414px;
+        top: 6705px;
+        left: 64px;
         border: 2px solid grey;
         background-color: grey;
 
@@ -581,7 +581,7 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7285px;
+        top: 6560px;
         left: 64px;
 
 
@@ -590,8 +590,8 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7345px;
-        left:414px;
+        top: 6610px;
+        left: 64px;
 
 
 
@@ -600,8 +600,8 @@
         position: absolute;
         width: 300.1px;
         height: 28px;
-        top: 7405px;
-        left:414px;
+        top: 6670px;
+        left: 64px;
 
 
     }
@@ -616,7 +616,7 @@
     }
     #nameline2{
         position: absolute;
-        top: 7338px;
+        top: 6610px;
         width: 300.1px;
         height: 2px;
         left: 64px;
@@ -626,20 +626,20 @@
     #nameline3{
 
         position: absolute;
-        top: 7398px;
+        top: 6670px;
         width: 300.1px;
         height: 2px;
-        left: 417px;
+        left: 64px;
         background-color: black;
 
 
     }
     #nameline4{
         position: absolute;
-        top: 7458px;
+        top: 6730px;
         width: 300.1px;
         height: 2px;
-        left: 417px;
+        left: 64px;
         background-color: black;
 
 
@@ -648,8 +648,8 @@
 
 
         position: absolute;
-        top: 7650px;
-        left: 488px;
+        top: 6780px;
+        left: 135px;
         width: 155px;
         height: 28px;
         border-radius: 10px;
