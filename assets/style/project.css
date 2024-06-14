@@ -720,6 +720,7 @@
 
 
 
+/*
 
 
 
@@ -777,6 +778,11 @@
 
     }
 
+    .card {
+        width: 300px;
+        position: relative;
+    }
+
     #projectline2{
 
         position: absolute;
@@ -794,6 +800,7 @@
 
 
 
+*/
 
 
 
