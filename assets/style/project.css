@@ -724,6 +724,82 @@
 
 
 
+@media  (max-width: 1024px) {
+
+
+    #projecttopic{
+        font-size: 24px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 1910px;
+        left: -35px;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+
+
+
+
+
+
+
+
+    #projectside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 40px;
+
+
+        top:397.5%;
+        left: 88.88%;
+        display: none;
+
+    }
+
+    #projectline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 335%;
+        left: 1149px;
+        width: 620px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+    #projectline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 461.5%;
+        left:1179px;
+        width: 555px;
+        height: 6px;
+        background-color: #ffffff;
+        display: none;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
