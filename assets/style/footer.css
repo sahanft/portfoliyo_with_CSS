@@ -72,7 +72,63 @@ footer {
     color: rgb(106, 106, 106);
     font-size: 70%;
 }
+@media (width: 1024px) {
 
+
+    .footer {
+        position: absolute;
+        height: 20%;
+        width: 100%;
+        background-color: #000214;
+        top:5301px;
+        z-index: 1;
+    }
+
+    .overview {
+        color: #ffd500;
+        text-align: center;
+        position: relative;
+        top: 5%;
+        letter-spacing: 0.2vw;
+        font-size: 60%;
+
+    }
+
+    .footer-nav {
+        position: absolute;
+        top: 25%;
+        left: 525px;
+        width: 60%;
+    }
+    .footer-nav:hover{
+        color: #8F43EE;
+    }
+    .footer-nav:visited{
+        color: greenyellow;
+    }
+
+
+    .a {
+        position: relative;
+        top: 10%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 0 2%;
+        font-size: 80%;
+        left: -210px;
+    }
+
+    .Copyright {
+        position: relative;
+        text-align: center;
+        top: 60%;
+        color: rgb(106, 106, 106);
+        font-size: 70%;
+        left: 14px;
+    }
+
+
+}
 @media (max-width: 768px){
 
 

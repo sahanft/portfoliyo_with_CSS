@@ -362,7 +362,7 @@ nav {
         margin: 0;
         box-sizing: border-box;
 
-        height: 780vh;
+        height: 620vh;
     }
 
     #homepageicon{
@@ -372,7 +372,7 @@ nav {
 
     #corner-image {
         position: absolute;
-        top: 20px;
+        top: 8px;
         right: 31px;
         height: 30px;
         width: 30px;
@@ -488,7 +488,7 @@ nav {
         justify-content: center;
         align-items: center;
         position: fixed;
-        width: 109%;
+        width: 160.5%;
         height: 4%;
         background-color: black;
         z-index: 1000;

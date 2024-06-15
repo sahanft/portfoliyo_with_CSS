@@ -720,21 +720,20 @@
 
 
 
-/*
 
 
 
 
-@media  (max-width: 1024px) {
+@media  (width: 1024px) {
 
 
     #projecttopic{
-        font-size: 24px;
+        font-size: 28px;
         font-weight: bold;
         font-family: "Audiowide", sans-serif;
         position: absolute;
-        top: 1910px;
-        left: -35px;
+        top: 1950px;
+        left: 60px;
         transform: translateX(50%);
         letter-spacing: 35px;
     }
@@ -759,9 +758,9 @@
         font-size: 40px;
 
 
-        top:397.5%;
-        left: 88.88%;
-        display: none;
+        top:290%;
+        left: 87.7%;
+
 
     }
 
@@ -769,30 +768,31 @@
 
         position: absolute;
         transform:rotate(90deg) ;
-        top: 335%;
-        left: 1149px;
-        width: 620px;
+        top: 244%;
+        left: 717px;
+        width: 550px;
         height: 6px;
         background-color: #ffffff;
-        display: none;
+
 
     }
 
     .card {
         width: 300px;
         position: relative;
+        padding-bottom: 40px;
     }
 
     #projectline2{
 
         position: absolute;
         transform:rotate(90deg) ;
-        top: 461.5%;
-        left:1179px;
-        width: 555px;
+        top: 340%;
+        left:718.8px;
+        width: 550px;
         height: 6px;
         background-color: #ffffff;
-        display: none;
+
 
     }
 
@@ -800,7 +800,6 @@
 
 
 
-*/
 
 
 

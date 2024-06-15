@@ -557,7 +557,397 @@
 
 
 
+@media (width: 1024px) {
 
+
+    #assignmentside{
+
+        position: absolute;
+        transform: rotate(90deg);
+
+        color: #ffffff;
+        font-family: "Lexend Zetta", sans-serif;
+        font-optical-sizing: auto;
+        font-weight:bold;
+
+        font-size: 38px;
+
+
+        top:50%;
+        left: 64%;
+
+    }
+
+    #assignmentline1{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 22%;
+        left: 780px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+
+    }
+
+    #assignmentline2{
+
+        position: absolute;
+        transform:rotate(90deg) ;
+        top: 84%;
+        left:780px;
+        width: 125px;
+        height: 6px;
+        background-color: #ffffff;
+
+    }
+
+
+
+
+
+
+
+    #assignmenttopic{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Audiowide", sans-serif;
+        position: absolute;
+        top: 3620px;
+        left: -16%;
+        transform: translateX(50%);
+        letter-spacing: 35px;
+    }
+    #assignmet-section{
+        position: absolute;
+        top:3610px;
+        left: 145px;
+    }
+
+    .sectionnumber{
+        color:#ffffff;
+        font-size: 70px;
+
+    }
+    .con
+
+
+    :root {
+        --level-one: translateZ(3rem);
+        --level-two: translateZ(6rem);
+        --level-three: translateZ(9rem);
+
+
+        --fw-normal: 400;
+        --fw-bold: 700;
+
+        --clr: #000000;
+    }
+    .card2 {
+        width: 200px;
+        position: relative;
+        margin: 14px;
+        left: -190px;
+
+
+    }
+
+    .card2::before{
+        content: '';
+        position: absolute;
+        width: 102%;
+        height: 102%;
+        border: 2px solid black;
+        filter: blur(10px);
+    }
+    .card__content2 {
+        text-align: center;
+        position: relative;
+        padding: 15em 5em;
+        transition: transform 3s;
+        transform-style: preserve-3d;
+
+    }
+    .card2:hover .card__content2 {
+        transform: rotateY(.5turn);
+    }
+    .card__front2,
+    .card__back2 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 5em 3em;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        display: grid;
+        align-content: center;
+    }
+    .card__back2{
+
+    }
+    .card__front2 {
+        /*
+        background: linear-gradient(45deg, #384041, #236050, #041317);
+        */
+        background: linear-gradient(45deg, #000000, #808080);
+
+        /*
+        background: linear-gradient(45deg, #FFFFFF, #808080);
+        */
+
+        background-size: cover;
+        background-blend-mode: overlay;
+        color: rgb(255, 255, 255);
+    }
+    .card__front2::after{
+        content: '';
+        position: absolute;
+        --spacer: 1em;
+        top: var(--spacer);
+        bottom: var(--spacer);
+        left: var(--spacer);
+        right: var(--spacer);
+        border: 3px solid #ffffff;
+        filter: blur(10px);
+        transform: var(--level-one);
+    }
+    .card__front2::before {
+        content: '';
+        position: absolute;
+        --spacer: 1em;
+        top: var(--spacer);
+        bottom: var(--spacer);
+        left: var(--spacer);
+        right: var(--spacer);
+        border: 3px solid #ffffff;
+        transform: var(--level-one);
+    }
+    /*.card__title2 {
+        font-size: 2.5rem;
+        transform: var(--level-three);
+        order: 1;
+        text-transform: uppercase;
+    }*/
+
+    .card__title2 {
+
+        font-size: 1rem;
+        order: 1;
+        transform: var(--level-three);
+        text-transform: uppercase;
+        writing-mode: vertical-rl; /* 'rl' stands for right-to-left, which makes the text flow from top to bottom */
+        text-orientation: upright; /* upright orientation */
+        letter-spacing: 14px;
+
+
+    }
+    .card__subtitle2 {
+        transform: var(--level-two);
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        font-size: .75rem;
+        font-weight: var(--fw-bold);
+        opacity: .7;
+    }
+    .card-back-button2{
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        top: -265px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+    }
+
+    .card-back-button3{
+
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        top: -362px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+
+    }
+
+    .card-back-button4{
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        top: -44px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+    }
+
+    .card-back-button5{
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        top: 50px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+    }
+    .card-back-button6{
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: -500px;
+        top: -140px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+    }
+    .card-back-button7{
+        transform: var(--level-two);
+        background-color: transparent;
+        border: 3px solid ;
+        border-radius: 50px;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 20px;
+        top: 280px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        color: black;
+        font-size: 24px;
+    }
+    .card-back-button2:hover{
+        color: #8F43EE;
+    }
+    .card-back-button2:visited{
+        color: #808080;
+    }
+    .card-back-button3:hover{
+        color: #8F43EE;
+    }
+    .card-back-button3:visited{
+        color: #808080;
+    }
+    .card-back-button4:hover{
+        color: #8F43EE;
+    }
+    .card-back-button5:hover{
+        color: #8F43EE;
+    }
+    .card-back-button6:hover{
+        color: #8F43EE;
+    }
+    .card-back-button7:hover{
+        color: #8F43EE;
+    }
+    .card-back-button4:visited{
+        color: #808080;
+    }
+    .card-back-button5:visited{
+        color: #808080;
+    }
+    .card-back-button6:visited{
+        color: #808080;
+    }
+    .card-back-button7:visited{
+        color: #808080;
+    }
+    .card__body2 {
+        transform: var(--level-two);
+        font-weight: var(--fw-normal);
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+    /*.image-in-card4{
+        transform: var(--level-three);
+        width: 288px;
+    }
+    .image-in-card4{
+        transform: var(--level-three);
+        width: 158px;
+        position: relative;
+        height: 140px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        margin-bottom: 40px;
+    }*/
+    .card__back2 {
+        transform: rotateY(.5turn);
+        color: white;
+        /*
+        background: linear-gradient(45deg, #041317, #384041, #236050);
+        */
+        /*  background: linear-gradient(45deg, #000000, #808080);*/
+        background: linear-gradient(45deg, #FFFFFF, #808080);
+        border: 3px solid #ffffff;
+        position: absolute;
+
+
+
+
+    }
+    .paragraphs2{
+        margin: 50px;
+    }
+    .paragraph-about-card2{
+        display: none;
+        flex-direction: row;
+        color: white;
+        overflow: hidden;
+    }
+    .paragraph-about-card2>p{
+        margin: 50px;
+        font-size: 20px;
+    }
+    .paragraph-about-card2>p>a{
+        color: #89ffff;
+    }
+    .gradient-border2 {
+        --borderWidth: 3px;
+        background:#0c1022 ;
+        position: relative;
+        display: block;
+        border-radius: var(--borderWidth);
+    }
+
+}
 @media  (max-width: 768px){
 
 
